@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=DynaPuff:wght@400..700&family=Pacifico&display=swap");
+
+body {
+  background-color: lightblue;
+  font-family: "Audiowide", sans-serif;
+  color: #333;
+}
+
+h1 {
+    width: 100%;
+    display:flex;  
+    justify-content: center;
+    align-items: center;
+  font-size: xx-large;
+  font-family: "DynaPuff", cursive;
+  text-align: center;
+
+}
+
+.titulo{
+    padding: 10px;
+    background-color: #4caf50;
+  border: 2px solid #34f581;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: x-large;
+  font-family: "DynaPuff", cursive;
+  text-align: center;
+}
+
+div.fas.fa-robot.message-avatar {
+  display: inline;
+  font-size: 40px;
+  color: #4caf50;
+  padding: 10px;
+  margin: 10 10 20 10px;
+}
+
+div.message-content {
+  display: inline;
+}
+
+.fas.fa-smile.message-avatar {
+  display: inline;
+  font-size: 40px;
+  color: #21a2dd;
+  padding: 10px;
+  text-align: end;
+}
+
+div.message.user-message {
+  display: inline;
+  text-align: end;
+}
+.chat-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-input {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+#requestJokeButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
